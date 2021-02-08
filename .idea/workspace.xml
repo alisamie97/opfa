@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/catalog/controller/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612705009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612773517" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612704697" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1612704716" beforeDir="false" />
     </list>
@@ -60,7 +61,7 @@
       <workItem from="1612689956401" duration="277000" />
       <workItem from="1612690263004" duration="94000" />
       <workItem from="1612690373303" duration="5449000" />
-      <workItem from="1608755443719" duration="4761000" />
+      <workItem from="1608755443719" duration="4896000" />
     </task>
     <servers />
   </component>
