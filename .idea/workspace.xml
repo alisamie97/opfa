@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612697974" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612697906" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612705009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612704697" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1612704716" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +19,19 @@
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="33321c01-9430-4ff3-931a-6db11d1bcdd6" />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1m4ae9wpLK80guMRJ3cKkZUoJbK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spreadsheet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -40,7 +50,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bef32d42-b28a-4b42-9c86-3b2a7677f4de" name="Default Changelist" comment="" />
+      <changelist id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="" />
       <created>1608755414016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -50,6 +60,7 @@
       <workItem from="1612689956401" duration="277000" />
       <workItem from="1612690263004" duration="94000" />
       <workItem from="1612690373303" duration="5449000" />
+      <workItem from="1608755443719" duration="4761000" />
     </task>
     <servers />
   </component>
