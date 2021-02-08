@@ -206,6 +206,30 @@ class ModelCatalogProduct extends Model {
 		return $product_data;
 	}
 
+    //ali97rey edit: get products filtered
+	public function getProductsFiltered($filter=array()){
+
+	    $sql = "SELECT pd.name,pd.product_id FROM ".DB_PREFIX."product_description pd WHERE 1=1 ";
+        if(@$filter['filter_product_name']){
+            $sql .= ' AND pd.name LIKE "%'.$filter['filter_product_name'].'%"';
+        }
+
+        if (isset($filter['start']) || isset($filter['limit'])) {
+            if ($filter['start'] < 0) {
+                $filter['start'] = 0;
+            }
+
+            if ($filter['limit'] < 1) {
+                $filter['limit'] = 20;
+            }
+
+            $sql .= " LIMIT " . (int)$filter['start'] . "," . (int)$filter['limit'];
+        }
+
+        $query = $this->db->query($sql);
+        return $query->rows;
+    }
+
 	public function getProductSpecials($data = array()) {
 		$sql = "SELECT DISTINCT ps.product_id, (SELECT AVG(rating) FROM " . DB_PREFIX . "review r1 WHERE r1.product_id = ps.product_id AND r1.status = '1' GROUP BY r1.product_id) AS rating FROM " . DB_PREFIX . "product_special ps LEFT JOIN " . DB_PREFIX . "product p ON (ps.product_id = p.product_id) LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "' AND ps.customer_group_id = '" . (int)$this->config->get('config_customer_group_id') . "' AND ((ps.date_start = '0000-00-00' OR ps.date_start < NOW()) AND (ps.date_end = '0000-00-00' OR ps.date_end > NOW())) GROUP BY ps.product_id";
 

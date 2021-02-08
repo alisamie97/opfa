@@ -1471,3 +1471,1209 @@
 2021-02-07 10:23:11 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\system\storage\vendor\scss.inc.php on line 1753
 2021-02-07 10:24:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opfa\system\library\mail\mail.php on line 77
 2021-02-07 10:24:52 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opfa\system\library\mail\mail.php on line 77
+2021-02-08 11:56:34 - PHP Notice:  Undefined index: search in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 459
+2021-02-08 13:23:29 - PHP Warning:  print_r() expects at least 1 parameter, 0 given in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 474
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 5 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 5 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 6 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 6 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 7 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 7 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 8 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 8 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 8 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 9 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 9 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 9 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 10 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 10 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 10 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 11 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 11 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 11 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 12 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 12 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 12 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 13 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 13 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 13 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 14 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 14 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 14 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 15 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 15 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 15 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 16 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 16 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 16 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 17 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 17 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 17 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 18 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 18 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 18 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 19 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 19 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 19 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 20 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 20 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 20 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 21 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 21 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 21 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 22 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 22 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 22 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 23 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 23 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 23 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 24 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 24 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 24 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 25 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 25 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 25 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 26 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 26 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 26 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 27 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 27 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 27 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 28 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 28 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 28 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 29 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 29 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 29 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 30 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 30 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 30 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 31 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 31 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 31 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 32 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 32 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 32 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 33 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 33 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 33 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 34 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 34 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 34 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 35 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 35 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 35 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 36 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 36 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 36 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 37 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 37 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 37 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 38 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 38 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 38 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 39 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 39 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 39 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 40 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 40 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 40 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 41 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 41 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 41 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 42 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 42 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 42 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 43 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 43 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 43 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 44 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 44 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 44 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 45 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 45 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 45 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 46 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 46 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 46 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 47 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 47 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 47 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 48 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 48 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 48 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 49 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 49 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 49 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 50 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 50 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 50 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 51 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 51 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 51 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 52 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 52 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 52 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 53 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 53 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 53 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 54 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 54 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 54 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 55 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 55 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 55 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 56 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 56 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 56 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 57 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 57 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 57 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 58 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 58 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 58 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 59 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 59 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 59 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 60 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 60 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 60 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 61 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 61 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 61 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 62 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 62 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 62 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 63 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 63 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 63 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 64 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 64 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 64 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 65 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 65 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 65 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 66 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 66 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 66 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 67 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 67 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 67 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 68 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 68 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 68 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 69 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 69 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 69 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 70 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 70 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 70 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 71 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 71 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 71 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 72 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 72 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 72 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 73 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 73 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 73 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 74 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 74 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 74 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 75 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 75 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 75 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 76 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 76 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 76 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 77 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 77 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 77 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 78 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 78 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 78 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 79 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 79 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 79 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 80 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 80 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 80 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 81 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 81 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 81 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 82 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 82 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 82 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 83 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 83 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 83 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 84 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 84 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 84 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 85 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 85 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 85 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 86 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 86 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 86 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 87 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 87 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 87 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 88 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 88 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 88 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 89 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 89 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 89 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 90 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 90 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 90 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 91 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 91 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 91 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 92 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 92 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 92 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 93 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 93 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 93 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 94 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 94 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 94 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 95 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 95 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 95 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 96 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 96 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 96 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 97 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 97 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 97 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 98 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 98 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 98 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 99 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 99 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 99 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 100 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 100 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 100 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 101 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 101 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 101 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 102 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 102 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 102 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 103 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 103 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 103 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 104 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 104 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 104 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 105 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 105 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 105 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 106 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 106 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 106 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 107 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 107 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 107 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 108 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 108 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 108 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 109 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 109 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 109 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 110 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 110 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 110 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 111 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 111 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 111 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 112 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 112 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 112 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 113 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 113 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 113 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 114 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 114 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 114 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 115 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 115 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 115 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 116 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 116 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 116 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 117 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 117 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 117 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 118 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 118 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 118 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 119 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 119 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 119 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 120 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 120 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 120 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 121 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 121 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 121 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 122 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 122 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 122 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 123 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 123 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 123 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 124 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 124 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 124 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 125 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 125 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 125 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 126 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 126 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 126 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 127 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 127 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 127 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 128 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 128 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 128 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 129 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 129 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 129 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 130 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 130 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 130 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 131 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 131 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 131 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 132 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 132 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 132 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 133 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 133 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 133 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 134 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 134 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 134 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 135 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 135 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 135 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 136 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 136 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 136 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 137 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 137 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 137 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 138 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 138 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 138 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 139 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 139 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 139 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 140 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 140 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 140 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 141 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 141 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 141 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 142 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 142 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 142 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 143 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 143 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 143 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 144 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 144 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 144 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 145 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 145 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 145 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 146 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 146 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 146 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 147 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 147 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 147 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 148 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 148 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 148 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 149 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 149 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 149 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 150 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 150 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 150 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 151 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 151 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 151 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 152 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 152 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 152 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 153 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 153 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 153 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 154 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 154 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 154 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 155 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 155 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 155 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 156 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 156 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 156 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 157 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 157 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 157 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 158 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 158 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 158 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 159 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 159 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 159 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 160 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 160 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 160 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 161 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 161 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 161 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 162 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 162 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 162 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 163 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 163 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 163 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 164 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 164 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 164 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 165 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 165 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 165 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 166 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 166 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 166 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 167 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 167 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 167 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 168 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 168 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 168 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 169 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 169 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 169 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 170 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 170 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 170 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 171 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 171 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 171 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 172 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 172 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 172 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 173 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 173 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 173 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 174 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 174 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 174 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 175 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 175 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 175 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 176 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 176 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 176 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 177 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 177 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 177 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 178 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 178 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 178 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 179 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 179 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 179 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 180 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 180 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 180 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 181 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 181 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 181 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 182 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 182 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 182 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 183 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 183 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 183 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 184 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 184 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 184 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 185 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 185 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 185 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 186 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 186 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 186 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 187 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 187 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 187 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 188 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 188 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 188 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 189 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 189 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 189 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 190 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 190 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 190 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 191 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 191 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 191 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 192 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 192 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 192 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 193 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 193 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 193 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 194 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 194 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 194 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 195 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 195 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 195 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 196 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 196 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 196 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 197 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 197 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 197 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 198 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 198 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 198 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 199 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 199 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 199 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 200 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 476
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 200 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 477
+2021-02-08 13:32:33 - PHP Notice:  Undefined offset: 200 in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 13:32:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 478
+2021-02-08 14:10:03 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 21
+2021-02-08 14:17:09 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 18
+2021-02-08 14:19:44 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 24
+2021-02-08 14:19:46 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 24
+2021-02-08 14:50:30 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 26
+2021-02-08 15:20:15 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:20:35 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:22:20 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:22:23 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:34:03 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:38:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 19
+2021-02-08 15:43:36 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 24
+2021-02-08 15:44:11 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 24
+2021-02-08 15:46:34 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 24
+2021-02-08 15:58:13 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 15:58:23 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 15:58:29 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 15:58:37 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 16:00:13 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 16:01:16 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 16:01:42 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 16:02:58 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 27
+2021-02-08 16:06:49 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 22
+2021-02-08 16:07:00 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 22
+2021-02-08 16:11:14 - PHP Notice:  Undefined variable: parent_id in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 29
+2021-02-08 16:33:38 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 34
+2021-02-08 16:33:48 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 34
+2021-02-08 16:33:48 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 35
+2021-02-08 16:34:00 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 34
+2021-02-08 16:34:00 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 35
+2021-02-08 16:34:32 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 34
+2021-02-08 16:34:32 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 35
+2021-02-08 16:35:45 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opfa\catalog\model\catalog\category.php on line 34
+2021-02-08 16:44:45 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opfa\catalog\controller\product\search.php on line 498
