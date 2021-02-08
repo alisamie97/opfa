@@ -469,7 +469,7 @@ class ControllerProductSearch extends Controller
         $filter = array(
             'filter_category_name' =>   $search_term ,
             'start' => 0,
-            'limit' => 2
+            'limit' => 5
         );
         $result['categories'] = $this->model_catalog_category->getCategoriesFiltered($filter);
 
@@ -478,7 +478,7 @@ class ControllerProductSearch extends Controller
         $filter = array(
             'filter_product_name' =>   $search_term ,
             'start' => 0,
-            'limit' => 2
+            'limit' => 5
         );
         $result['products'] = $this->model_catalog_product->getProductsFiltered($filter);
 
@@ -487,7 +487,7 @@ class ControllerProductSearch extends Controller
         $filter = array(
             'filter_manufacturer_name' =>   $search_term ,
             'start' => 0,
-            'limit' => 2
+            'limit' => 5
         );
         $result['manufacturers'] = $this->model_catalog_manufacturer->getManufacturersFiltered($filter);
 
