@@ -37,7 +37,7 @@ class ModelCatalogCategory extends Model {
         foreach ($query->rows as $value){
             $data[] = array(
                 'name' => $value['name'] ,
-                'href' => $this->url->link('product/category' , 'category_id='.$value['id'])
+                'href' => $this->url->link('product/category' , 'path='.$value['id'])
             );
         }
         return $data;

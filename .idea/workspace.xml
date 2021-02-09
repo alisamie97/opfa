@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/model/catalog/manufacturer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/manufacturer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/alrey_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/alrey_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/alrey_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/alrey_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612800726" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612798118" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocferror.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocferror.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1612854886" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612857858" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1612854847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1612854847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1612854847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1612854847" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <workItem from="1608755423765" duration="11928000" />
       <workItem from="1608755436203" duration="1805000" />
       <workItem from="1608755416312" duration="10645000" />
-      <workItem from="1608755435656" duration="4844000" />
+      <workItem from="1608755435656" duration="5581000" />
     </task>
     <servers />
   </component>

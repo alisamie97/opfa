@@ -83,7 +83,7 @@ class ModelCatalogManufacturer extends Model {
         foreach ($query->rows as $value){
             $data[] = array(
                 'name' => $value['name'] ,
-                'href' => $this->url->link('product/manufacturer' , 'manufacturer_id='.$value['id'])
+                'href' => $this->url->link('product/manufacturer/info' , 'manufacturer_id='.$value['id'])
             );
         }
         return $data;
