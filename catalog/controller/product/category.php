@@ -5,7 +5,17 @@ class ControllerProductCategory extends Controller {
 
 		$this->load->model('catalog/category');
 
-		$this->load->model('catalog/product');
+        $data['filter_groups'] = $this->model_catalog_category->getFilterGroups();
+
+        foreach ($data['filter_groups'] as $key => &$filter_group){
+            $filters = $this->model_catalog_category->getFilters($filter_group['filter_group_id']);
+            if(empty($filters)) {
+                unset($data['filter_groups'][$key]);
+            }
+            $filter_group['filters'] = $filters;
+        }
+
+        $this->load->model('catalog/product');
 
 		$this->load->model('tool/image');
 
@@ -404,9 +414,6 @@ class ControllerProductCategory extends Controller {
 			$data['content_bottom'] = $this->load->controller('common/content_bottom');
 			$data['footer'] = $this->load->controller('common/footer');
 			$data['header'] = $this->load->controller('common/header');
-
-			//ali97rey edit: add filter box
-//            $data['']
 
 			$this->response->setOutput($this->load->view('error/not_found', $data));
 		}

@@ -43,6 +43,24 @@ class ModelCatalogCategory extends Model {
         return $data;
     }
 
+    //ali97rey edit: get filter groups
+    public function getFilterGroups(){
+        $sql = 'SELECT filter_group_id,name FROM '.DB_PREFIX.'filter_group_description ';
+
+        $query = $this->db->query($sql);
+
+        return $query->rows;
+    }
+
+    //ali97rey edit: get filters
+    public function getFilters($filter_group_id){
+        $sql = 'SELECT filter_id,name FROM '.DB_PREFIX.'filter_description WHERE filter_group_id='.$filter_group_id;
+
+        $query = $this->db->query($sql);
+
+        return $query->rows;
+    }
+
 	public function getCategoryFilters($category_id) {
 		$implode = array();
 

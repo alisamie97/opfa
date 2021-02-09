@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/opfa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opfa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/category-filters.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/category-filters.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612858750" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612856671" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.manufacturer.0.1612856312" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1612865539" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1612866357" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1612864731" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1612866517" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocferror.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocferror.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +20,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>C:\xampp\htdocs\opfa\system\storage\vendor\guzzlehttp\streams\composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="33321c01-9430-4ff3-931a-6db11d1bcdd6" />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -32,11 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
-    <include_path>
-      <path value="$PROJECT_DIR$" />
-    </include_path>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1m4ae9wpLK80guMRJ3cKkZUoJbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,8 +53,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="C:\xampp\htdocs\opfa\system\storage\vendor\guzzlehttp\streams\composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +79,7 @@
       <workItem from="1608755423765" duration="11928000" />
       <workItem from="1608755436203" duration="1805000" />
       <workItem from="1608755416312" duration="10645000" />
-      <workItem from="1608755435656" duration="12952000" />
+      <workItem from="1608755435656" duration="28302000" />
     </task>
     <servers />
   </component>

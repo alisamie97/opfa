@@ -166,42 +166,19 @@
       {% endif %}
       {{ content_bottom }}</div>
     <aside id="column-right" class="col-sm-3 hidden-xs">
-      <div class="category-filters">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> گوشی
-          </label>
-        </div>
+      <div class="panel panel-default category-filters">
+        {% for filter_group in filter_groups %}
+        <div class="panel-heading" id="filter-group-id-{{ filter_group.filter_group_id }}">{{ filter_group.name }}</div>
+          {% for filter in filter_group.filters %}
+            <div class="panel-body">
+              <div class="checkbox">
+                <label for="filter-id-{{ filter.filter_name }}">
+                  <input type="checkbox" id="filter-id-{{ filter.filter_name }}"> {{ filter.name }}
+                </label>
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
       </div>
     </aside>
     {{ column_right }}</div>
