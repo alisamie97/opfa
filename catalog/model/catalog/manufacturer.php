@@ -60,7 +60,7 @@ class ModelCatalogManufacturer extends Model {
     //ali97rey edit: get manufacturers filtered
     public function getManufacturersFiltered($filter){
 
-	    $sql = 'SELECT m.name, m.manufacturer_id FROM '.DB_PREFIX.'manufacturer m WHERE 1=1 ';
+	    $sql = 'SELECT m.name, m.manufacturer_id as id FROM '.DB_PREFIX.'manufacturer m WHERE 1=1 ';
 
 	    if(@$filter['filter_manufacturer_name']){
             $sql .= ' AND m.name LIKE "%'.$filter['filter_manufacturer_name'].'%"';
@@ -78,7 +78,14 @@ class ModelCatalogManufacturer extends Model {
             $sql .= " LIMIT " . (int)$filter['start'] . "," . (int)$filter['limit'];
         }
 
+        $data = array();
         $query = $this->db->query($sql);
-        return $query->rows;
+        foreach ($query->rows as $value){
+            $data[] = array(
+                'name' => $value['name'] ,
+                'href' => $this->url->link('product/manufacturer' , 'manufacturer_id='.$value['id'])
+            );
+        }
+        return $data;
     }
 }

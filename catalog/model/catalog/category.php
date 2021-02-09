@@ -15,7 +15,7 @@ class ModelCatalogCategory extends Model {
 	//ali97rey edit: get category filtered
     public function getCategoriesFiltered($filter=array()){
 
-	    $sql = "SELECT cd.category_id,cd.name FROM ".DB_PREFIX."category_description cd WHERE 1=1 ";
+	    $sql = "SELECT cd.category_id as id,cd.name FROM ".DB_PREFIX."category_description cd WHERE 1=1 ";
 	    if (@$filter['filter_category_name']){
 	        $sql .=' AND cd.name LIKE "%'.$filter['filter_category_name'].'%" ';
         }
@@ -32,8 +32,15 @@ class ModelCatalogCategory extends Model {
             $sql .= " LIMIT " . (int)$filter['start'] . "," . (int)$filter['limit'];
         }
 
+        $data = array();
 	    $query = $this->db->query($sql);
-        return $query->rows;
+        foreach ($query->rows as $value){
+            $data[] = array(
+                'name' => $value['name'] ,
+                'href' => $this->url->link('product/category' , 'category_id='.$value['id'])
+            );
+        }
+        return $data;
     }
 
 	public function getCategoryFilters($category_id) {

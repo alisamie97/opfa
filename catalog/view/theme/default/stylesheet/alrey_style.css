@@ -1,10 +1,15 @@
-/*#search ul.dropdown-menu{*/
-/*    max-width: 100px;*/
-/*}*/
-#search ul.dropdown-menu li button{
-    text-align: right!important;
-    /*text-justify: auto;*/
-    /*word-wrap: break-word;*/
+#search ul.dropdown-menu li h5,
+.search-not-found{
+    padding: 3px;
+    margin: 3px;
+}
+#search ul.dropdown-menu li h5{
+    border-bottom: 1px solid #565656;
+    padding-bottom: 10px!important;
+}
+
+#search ul.dropdown-menu li a{
+    text-align: right !important;
 }
 
 .search-not-found{

@@ -209,7 +209,7 @@ class ModelCatalogProduct extends Model {
     //ali97rey edit: get products filtered
 	public function getProductsFiltered($filter=array()){
 
-	    $sql = "SELECT pd.name,pd.product_id FROM ".DB_PREFIX."product_description pd WHERE 1=1 ";
+	    $sql = "SELECT pd.name,pd.product_id as id FROM ".DB_PREFIX."product_description pd WHERE 1=1 ";
         if(@$filter['filter_product_name']){
             $sql .= ' AND pd.name LIKE "%'.$filter['filter_product_name'].'%"';
         }
@@ -226,8 +226,15 @@ class ModelCatalogProduct extends Model {
             $sql .= " LIMIT " . (int)$filter['start'] . "," . (int)$filter['limit'];
         }
 
+        $data = array();
         $query = $this->db->query($sql);
-        return $query->rows;
+        foreach ($query->rows as $value){
+            $data[] = array(
+                'name' => $value['name'] ,
+                'href' => $this->url->link('product/product' , 'product_id='.$value['id'])
+            );
+        }
+        return $data;
     }
 
 	public function getProductSpecials($data = array()) {
