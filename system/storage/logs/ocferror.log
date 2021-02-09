@@ -2708,3 +2708,28 @@
 2021-02-09 10:08:20 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\opfa\catalog\model\catalog\manufacturer.php on line 86
 2021-02-09 10:08:24 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\opfa\catalog\model\catalog\manufacturer.php on line 86
 2021-02-09 10:08:24 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\opfa\catalog\model\catalog\manufacturer.php on line 86
+2021-02-09 12:28:53 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:28:53 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:02 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:02 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:25 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:25 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:27 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:27 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:56 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:57 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:29:57 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:30:23 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:30:23 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:30:28 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:30:28 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:16 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:16 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:18 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:18 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:25 - PHP Notice:  Undefined property: Request::$root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:25 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:51 - PHP Notice:  Undefined index: root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:52 - PHP Notice:  Undefined index: root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37
+2021-02-09 12:31:54 - PHP Notice:  Undefined index: root in C:\xampp\htdocs\opfa\catalog\controller\common\header.php on line 37

@@ -30,8 +30,13 @@ class ControllerCommonHeader extends Controller {
 		$data['description'] = $this->document->getDescription();
 		$data['keywords'] = $this->document->getKeywords();
 		$data['links'] = $this->document->getLinks();
+
 		//ali97rey edit: add dropdown style
         $this->document->addStyle('catalog/view/theme/default/stylesheet/alrey_style.css');
+
+        if($this->request->get['route']=='product/category'){
+            $this->document->addStyle('catalog/view/theme/default/stylesheet/category-filters.css');
+        }
 
 		$data['styles'] = $this->document->getStyles();
 		$data['scripts'] = $this->document->getScripts('header');
