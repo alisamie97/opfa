@@ -2,9 +2,9 @@ $(document).ready(function (){
 
 });
 
-function filter_ajax(){
+function filter_ajax(filter_id){
     $.ajax({
         type:'get',
-        url: '?route=product/category/live_search&search_term=' + search_term,
+        url: '?route=product/category/filter&filter_id=' + filter_id,
     })
 }
