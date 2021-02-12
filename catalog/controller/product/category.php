@@ -5,6 +5,7 @@ class ControllerProductCategory extends Controller {
 
 		$this->load->model('catalog/category');
 
+		//ali97rey edit: show filters and filter groups names
         $data['filter_groups'] = $this->model_catalog_category->getFilterGroups();
 
         foreach ($data['filter_groups'] as $key => &$filter_group){
@@ -12,8 +13,19 @@ class ControllerProductCategory extends Controller {
             if(empty($filters)) {
                 unset($data['filter_groups'][$key]);
             }
-            $filter_group['filters'] = $filters;
+            $filter_group['filters']=$filters;
+//            else{
+//                foreach ($filters as $filter){
+//                    $filter_group['filters'][]=array(
+//                        'filter_id'=>$filter['filter_id'],
+//                        'name'=>$filter['name']
+//                    );
+//                }
+//            }
         }
+
+//        echo '<pre dir="ltr">';
+//        print_r($data['filter_groups']);
 
         $this->load->model('catalog/product');
 
