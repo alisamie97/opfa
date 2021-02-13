@@ -43,6 +43,15 @@ class ModelCatalogCategory extends Model {
         return $data;
     }
 
+    //ali97rey edit: get category filter groups and filters
+    public function getPathFilterGroups($path_id){
+	    $sql = 'SELECT cp.category_id FROM '.DB_PREFIX.'category_path cp WHERE cp.path_id='.$path_id;
+
+        $query = $this->db->query($sql);
+
+        return $query->rows;
+    }
+
     //ali97rey edit: get filter groups
     public function getFilterGroups(){
         $sql = 'SELECT filter_group_id,name FROM '.DB_PREFIX.'filter_group_description ';

@@ -4,16 +4,11 @@
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1613141158" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613141175" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613140935" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1613140753" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1613140753" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1613141162" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1613140753" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1613140753" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613161522" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613161522" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocferror.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocferror.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +46,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalog/view/javascript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\opfa\catalog\view\javascript" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,6 +78,7 @@
       <workItem from="1613126479259" duration="10352000" />
       <workItem from="1613146447086" duration="56000" />
       <workItem from="1613154586569" duration="1281000" />
+      <workItem from="1608755427110" duration="8124000" />
     </task>
     <servers />
   </component>

@@ -18,6 +18,7 @@ class ControllerProductCategory extends Controller
             }
             $filter_group['filters'] = $filters;
         }
+
         $this->load->model('catalog/product');
 
         $this->load->model('tool/image');
@@ -426,7 +427,7 @@ class ControllerProductCategory extends Controller
     public function filter()
     {
         $filter_id = $this->request->get['filter_id'];
-//	    if(empty($filter_id) or !is_int($filter_id)) exit;
+
 
         echo $filter_id;
         exit;
