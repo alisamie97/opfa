@@ -44,8 +44,13 @@ class ModelCatalogCategory extends Model {
     }
 
     //ali97rey edit: get category filter groups and filters
-    public function getPathFilterGroups($path_id){
-	    $sql = 'SELECT cp.category_id FROM '.DB_PREFIX.'category_path cp WHERE cp.path_id='.$path_id;
+    public function reGetCategoryFilters($category_id){
+	    $sql = 'SELECT cf.filter_id,fd.name AS filter_name,f.filter_group_id,fgd.name AS filter_group_name 
+                FROM oc_category_filter cf
+                JOIN oc_filter f ON cf.filter_id = f.filter_id
+                JOIN oc_filter_description fd ON fd.filter_id = f.filter_id
+                JOIN oc_filter_group_description fgd ON fgd.filter_group_id = f.filter_group_id
+                WHERE cf.category_id='.$category_id;
 
         $query = $this->db->query($sql);
 

@@ -5,10 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/model/catalog/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/category-filters.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/category-filters.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613161522" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613161522" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1613204829" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613206941" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613203966" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1613204829" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocferror.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocferror.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +80,7 @@
       <workItem from="1613126479259" duration="10352000" />
       <workItem from="1613146447086" duration="56000" />
       <workItem from="1613154586569" duration="1281000" />
-      <workItem from="1608755427110" duration="8124000" />
+      <workItem from="1608755427110" duration="13256000" />
     </task>
     <servers />
   </component>

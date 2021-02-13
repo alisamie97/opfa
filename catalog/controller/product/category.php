@@ -8,15 +8,13 @@ class ControllerProductCategory extends Controller
 
         $this->load->model('catalog/category');
 
-        //ali97rey edit: show filters and filter groups names
-        $data['filter_groups'] = $this->model_catalog_category->getFilterGroups();
+        //ali97rey edit: get all filters with filter groups
+        if(isset($this->request->get['path'])){
+            $re_path = $this->request->get['path'];
+            $re_path_parts = explode('_',$re_path);
+            $re_category_id = $re_path_parts[0];
 
-        foreach ($data['filter_groups'] as $key => &$filter_group) {
-            $filters = $this->model_catalog_category->getFilters($filter_group['filter_group_id']);
-            if (empty($filters)) {
-                unset($data['filter_groups'][$key]);
-            }
-            $filter_group['filters'] = $filters;
+            $data['category_filters'] = $this->model_catalog_category->reGetCategoryFilters($re_category_id);
         }
 
         $this->load->model('catalog/product');
