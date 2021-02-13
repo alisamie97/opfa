@@ -1,6 +1,5 @@
 $(document).ready(function () {
     origin = window.location.href;
-    console.log(origin);
     var timeout;
     $('#search input').on('keyup', function () {
         if (timeout) {

@@ -58,9 +58,6 @@ class ControllerCommonFooter extends Controller {
 
         //ali97rey edit:
         $this->document->addScript('catalog/view/javascript/search.js','footer');
-        if($this->request->get['route']=='product/category'){
-            $this->document->addScript('catalog/view/javascript/filters.js','footer');
-        }
 
 
 		$data['scripts'] = $this->document->getScripts('footer');

@@ -36,6 +36,7 @@ class ControllerCommonHeader extends Controller {
 
         if($this->request->get['route']=='product/category'){
             $this->document->addStyle('catalog/view/theme/default/stylesheet/category-filters.css');
+            $this->document->addScript('catalog/view/javascript/filters.js');
         }
 
 		$data['styles'] = $this->document->getStyles();
