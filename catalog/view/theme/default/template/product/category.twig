@@ -170,15 +170,15 @@
         <div class="panel panel-default category-filters">
           {% for filter_group in filter_groups %}
               <div class="panel-heading" id="filter-group-id-{{ filter_group.filter_group_id }}">{{ filter_group.name }}</div>
-                {% for filter in filter_group.filters %}
-                  <div class="panel-body">
-                    <div class="checkbox">
-                      <label for="filter-id-{{ filter.filter_id }}">
-                        <input onclick="filter_ajax({{ filter.filter_id }})" type="checkbox" id="filter-id-{{ filter.filter_id }}"> {{ filter.name }}
-                      </label>
-                    </div>
+              {% for filter in filter_group.filters %}
+                <div class="panel-body">
+                  <div class="checkbox">
+                    <label for="filter-id-{{ filter.filter_id }}">
+                      <input onclick="filter_ajax({{ filter.filter_id }})" type="checkbox" id="filter-id-{{ filter.filter_id }}"> {{ filter.name }}
+                    </label>
                   </div>
-                {% endfor %}
+                </div>
+              {% endfor %}
           {% endfor %}
         </div>
       </aside>
