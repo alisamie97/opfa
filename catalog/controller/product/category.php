@@ -8,13 +8,36 @@ class ControllerProductCategory extends Controller
 
         $this->load->model('catalog/category');
 
+        //ali97rey edit: get url and parse it to get filters
+        $full_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $url_components = parse_url($full_url);
+        parse_str($url_components['query'], $params);
+        //make selected filters as array to send to view
+        $selected_filters = explode(',',$params['filter']);
+
+
+
         //ali97rey edit: get all filters with filter groups
         if(isset($this->request->get['path'])){
             $re_path = $this->request->get['path'];
             $re_path_parts = explode('_',$re_path);
             $re_category_id = $re_path_parts[0];
 
-            $data['category_filters'] = $this->model_catalog_category->reGetCategoryFilters($re_category_id);
+            $data['filter_groups'] = $this->model_catalog_category->getFilterGroups($re_category_id);
+
+            foreach ($data['filter_groups'] as &$filter_group){
+                $filter_group['filters']= $this->model_catalog_category->getFilters($filter_group['filter_group_id']);
+                foreach ($filter_group['filters'] as &$filter){
+                    if(in_array($filter['filter_id'],$selected_filters)){
+                        $filter['filter_selected'] = 1;
+                    }else {
+                        $filter['filter_selected'] = 0;
+                    }
+                }
+            }
+
+//            echo '<pre dir="ltr">';
+//            print_r($data['filter_groups']);die;
         }
 
         $this->load->model('catalog/product');

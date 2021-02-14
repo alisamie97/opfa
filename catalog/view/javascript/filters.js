@@ -17,9 +17,6 @@ $(document).ready(function () {
     $('input.filter-checkbox').change(function () {
         //get filter id when input status changes
         filter = $(this).data('filter-id');
-        //make it string
-        // filter = toString(filter);
-        console.log(typeof filter);
 
         console.log('changed filter: '+filter);
 

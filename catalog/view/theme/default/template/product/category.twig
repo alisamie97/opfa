@@ -165,28 +165,20 @@
       </div>
       {% endif %}
       {{ content_bottom }}</div>
-    {% if category_filters is not empty %}
+    {% if filter_groups is not empty %}
       <aside id="column-right" class="col-sm-3 hidden-xs">
         <div class="panel panel-default category-filters">
-          {% for category_filter in category_filters %}
-
-            {% set new_filter_group_name = category_filter.filter_group_name %}
-            {% set new_filter_group_id = category_filter.filter_group_id %}
-            {% set new_filter_name = category_filter.filter_name %}
-            {% set new_filter_id = category_filter.filter_id %}
-
-            {% if new_filter_group_name != last_filter_group_name %}
-              {% set last_filter_group_name = new_filter_group_name %}
-              {% set last_filter_group_id = new_filter_group_id %}
-              <div class="panel-heading" id="filter-group-id-{{ last_filter_group_id }}">{{ last_filter_group_name }}</div>
-            {% endif %}
-                <div class="panel-body">
-                  <div class="checkbox">
-                    <label for="filter-id-{{ new_filter_id }}">
-                      <input type="checkbox" class="filter-checkbox" data-filter-id="{{ new_filter_id }}" id="filter-id-{{ new_filter_id }}"> {{ new_filter_name }}
-                    </label>
-                  </div>
+          {% for filter_group in filter_groups %}
+              <div class="panel-heading" id="filter-group-id-{{ filter_group.filter_group_id }}">{{ filter_group.filter_group_name }}</div>
+            {% for filter in filter_group.filters %}
+              <div class="panel-body">
+                <div class="checkbox">
+                  <label for="filter-id-{{ filter.filter_id }}">
+                    <input type="checkbox" class="filter-checkbox" data-filter-id="{{ filter.filter_id }}" id="filter-id-{{ filter.filter_id }}" {% if filter.filter_selected == 1 %} checked {% endif %} > {{ filter.filter_name }}
+                  </label>
                 </div>
+              </div>
+            {% endfor %}
           {% endfor %}
         </div>
       </aside>
