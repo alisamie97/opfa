@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613381167" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613379797" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1613382274" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1613383977" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1613383401" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1613382269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1613382269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1613382316" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1613382269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1613382269" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocferror.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocferror.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalog/view/javascript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -80,7 +84,8 @@
       <workItem from="1608755427110" duration="14138000" />
       <workItem from="1608755433593" duration="9187000" />
       <workItem from="1608755431312" duration="19444000" />
-      <workItem from="1608755426235" duration="15968000" />
+      <workItem from="1608755426235" duration="16204000" />
+      <workItem from="1608755428344" duration="4472000" />
     </task>
     <servers />
   </component>

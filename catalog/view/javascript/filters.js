@@ -2,10 +2,8 @@ $(document).ready(function () {
 
     //store filters in array
     filters_array = [];
-    //get full url
+    //get full url just with path
     url = new URL(location.href);
-    //get search parameters
-    // search_params = url.searchParams;
 
     //if filter in url exists
     if (url.searchParams.has('filter')) {
@@ -35,25 +33,27 @@ $(document).ready(function () {
         //now we have our filter ready for ajax and url
         console.log(filters_array);
 
+        url.href = decodeURIComponent(url.href);
+        url_for_ajax = new URL(url.href);
+
         if (filters_array.length > 0) {
             url.searchParams.set('filter', filters_array.toString());
         } else {
             url.searchParams.delete('filter');
+            url_for_ajax = new URL(url.href);
         }
-        url.href = decodeURIComponent(url.href)
 
-        url_for_ajax = new URL(url.href);
         ajax_method_part = '/ajax_filtered';
         if (url_for_ajax.search.indexOf(ajax_method_part) < 0) {
             url_search_start_part = url.search.substr(0, url.search.indexOf('&'));
             url_search_end_part = url.search.substr(url.search.indexOf('&'));
             url_for_ajax.search = url_search_start_part + ajax_method_part + url_search_end_part;
         }
+
         console.log('url: '+url);
         console.log('ajax_url: '+url_for_ajax);
 
         // console.log(url.search);
-
         window.history.pushState({}, '', url.href);
 
         $.ajax({
