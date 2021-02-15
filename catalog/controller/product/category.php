@@ -429,4 +429,43 @@ class ControllerProductCategory extends Controller
         }
     }
 
+    public function ajax_filtered(){
+
+//        if($_POST['request']==='ajax_filtered'){
+
+            //get category id from path
+            if (isset($this->request->get['filter'])) {
+                $path = $this->request->get['path'];
+                $category_id = explode('_',$path);
+                $category_id = $category_id[0];
+            } else {
+                $category_id = '';
+            }
+
+            //get filters from path
+            if (isset($this->request->get['filter'])) {
+                $filter = $this->request->get['filter'];
+            } else {
+                $filter = '';
+            }
+
+
+            $filter_data = array(
+                'filter_category_id' => $category_id,
+                'filter_filter' => $filter
+            );
+
+            $this->load->model('catalog/product');
+            $results = $this->model_catalog_product->getProducts($filter_data);
+
+            $data['products'] = array();
+
+            echo '<pre dir="ltr">';
+
+            print_r($results);
+            exit;
+//        }
+
+    }
+
 }
