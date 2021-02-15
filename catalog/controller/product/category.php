@@ -13,13 +13,13 @@ class ControllerProductCategory extends Controller
         $url_components = parse_url($full_url);
         parse_str($url_components['query'], $params);
         //make selected filters as array to send to view
-        $data['selected_filters'] = explode(',',$params['filter']);
-        $selected_filters = explode(',',$params['filter']);
+        $data['selected_filters'] = explode(',', $params['filter']);
+        $selected_filters = explode(',', $params['filter']);
 
         //ali97rey edit: get all filters with filter groups
-        if(isset($this->request->get['path'])){
+        if (isset($this->request->get['path'])) {
             $re_path = $this->request->get['path'];
-            $re_path_parts = explode('_',$re_path);
+            $re_path_parts = explode('_', $re_path);
             $re_category_id = $re_path_parts[0];
 
             $data['re_filter_groups'] = $this->model_catalog_category->getCategoryFilters($re_category_id);
@@ -429,14 +429,15 @@ class ControllerProductCategory extends Controller
         }
     }
 
-    public function ajax_filtered(){
+    public function ajax_filtered()
+    {
 
-//        if($_POST['request']==='ajax_filtered'){
+        if ($_POST['request'] === 'ajax_filtered') {
 
             //get category id from path
             if (isset($this->request->get['filter'])) {
                 $path = $this->request->get['path'];
-                $category_id = explode('_',$path);
+                $category_id = explode('_', $path);
                 $category_id = $category_id[0];
             } else {
                 $category_id = '';
@@ -456,15 +457,67 @@ class ControllerProductCategory extends Controller
             );
 
             $this->load->model('catalog/product');
-            $results = $this->model_catalog_product->getProducts($filter_data);
+
+            $this->load->model('tool/image');
 
             $data['products'] = array();
 
-            echo '<pre dir="ltr">';
+            $results = $this->model_catalog_product->getProducts($filter_data);
 
-            print_r($results);
-            exit;
-//        }
+
+            foreach ($results as $result) {
+                if ($result['image']) {
+                    $image = $this->model_tool_image->resize($result['image'], $this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_width'), $this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_height'));
+                } else {
+                    $image = $this->model_tool_image->resize('placeholder.png', $this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_width'), $this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_height'));
+                }
+
+                if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
+                    $price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+                } else {
+                    $price = false;
+                }
+
+                if ((float)$result['special']) {
+                    $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+                } else {
+                    $special = false;
+                }
+
+                if ($this->config->get('config_tax')) {
+                    $tax = $this->currency->format((float)$result['special'] ? $result['special'] : $result['price'], $this->session->data['currency']);
+                } else {
+                    $tax = false;
+                }
+
+                if ($this->config->get('config_review_status')) {
+                    $rating = (int)$result['rating'];
+                } else {
+                    $rating = false;
+                }
+
+                $data['products'][] = array(
+                    'product_id' => $result['product_id'],
+                    'thumb' => $image,
+                    'name' => $result['name'],
+                    'description' => utf8_substr(trim(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'))), 0, $this->config->get('theme_' . $this->config->get('config_theme') . '_product_description_length')) . '..',
+                    'price' => $price,
+                    'special' => $special,
+                    'tax' => $tax,
+                    'minimum' => $result['minimum'] > 0 ? $result['minimum'] : 1,
+                    'rating' => $result['rating'],
+                    'href' => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
+                );
+            }
+
+//            echo '<pre dir="ltr">';
+
+            $this->response->setOutput($this->load->view('product/re_ajax_category', $data));
+
+//        print_r(json_encode($data['products']));
+//        exit;
+
+        }
 
     }
 

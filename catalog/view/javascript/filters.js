@@ -63,8 +63,9 @@ $(document).ready(function () {
                 request: 'ajax_filtered',
             },
             success:function (data){
-                data = JSON.parse(data);
-                console.log(data);
+                // data = JSON.parse(data);
+                // console.log(data);
+                $('#re_category').html(data);
             }
         });
 
