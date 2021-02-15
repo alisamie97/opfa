@@ -43,38 +43,6 @@ class ModelCatalogCategory extends Model {
         return $data;
     }
 
-    //ali97rey edit: get category filter groups and filters
-    public function reGetCategoryFilters($category_id){
-	    $sql = 'SELECT cf.filter_id,fd.name AS filter_name,f.filter_group_id,fgd.name AS filter_group_name 
-                FROM oc_category_filter cf
-                JOIN oc_filter f ON cf.filter_id = f.filter_id
-                JOIN oc_filter_description fd ON fd.filter_id = f.filter_id
-                JOIN oc_filter_group_description fgd ON fgd.filter_group_id = f.filter_group_id
-                WHERE cf.category_id='.$category_id;
-
-        $query = $this->db->query($sql);
-
-        return $query->rows;
-    }
-
-    //ali97rey edit: get filter groups
-    public function getFilterGroups($category_id){
-        $sql = 'SELECT filter_group_id,name AS filter_group_name FROM '.DB_PREFIX.'filter_group_description ';
-
-        $query = $this->db->query($sql);
-
-        return $query->rows;
-    }
-
-    //ali97rey edit: get filters
-    public function getFilters($filter_group_id){
-        $sql = 'SELECT filter_id,name AS filter_name FROM '.DB_PREFIX.'filter_description WHERE filter_group_id='.$filter_group_id;
-
-        $query = $this->db->query($sql);
-
-        return $query->rows;
-    }
-
 	public function getCategoryFilters($category_id) {
 		$implode = array();
 

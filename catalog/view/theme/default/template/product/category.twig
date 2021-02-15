@@ -165,17 +165,16 @@
       </div>
       {% endif %}
       {{ content_bottom }}</div>
-    {% if filter_groups is not empty %}
-      {% set filter_groups_size = filter_groups|length %}
+    {% if re_filter_groups|length > 0 %}
       <aside id="column-right" class="col-sm-3 hidden-xs">
         <div class="panel panel-default category-filters">
-          {% for key in 0..filter_groups_size %}
-              <div class="panel-heading" id="filter-group-id-{{ filter_groups[key].filter_group_id }}">{{ filter_groups[key].filter_group_name }}</div>
-            {% for filter in filter_group.filters %}
+          {% for filter_group in re_filter_groups %}
+              <div class="panel-heading" id="filter-group-id-{{ filter_group.filter_group_id }}">{{ filter_group.name }}</div>
+            {% for filter in filter_group.filter %}
               <div class="panel-body">
                 <div class="checkbox">
                   <label for="filter-id-{{ filter.filter_id }}">
-                    <input type="checkbox" class="filter-checkbox" data-filter-id="{{ filter.filter_id }}" id="filter-id-{{ filter.filter_id }}" {% if filter.filter_selected == 1 %} checked {% endif %} > {{ filter.filter_name }}
+                    <input type="checkbox" class="filter-checkbox" data-filter-id="{{ filter.filter_id }}" id="filter-id-{{ filter.filter_id }}" {% if filter.filter_id in selected_filters %} checked {% endif %} > {{ filter.name }}
                   </label>
                 </div>
               </div>

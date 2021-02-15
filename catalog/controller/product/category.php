@@ -13,9 +13,8 @@ class ControllerProductCategory extends Controller
         $url_components = parse_url($full_url);
         parse_str($url_components['query'], $params);
         //make selected filters as array to send to view
+        $data['selected_filters'] = explode(',',$params['filter']);
         $selected_filters = explode(',',$params['filter']);
-
-
 
         //ali97rey edit: get all filters with filter groups
         if(isset($this->request->get['path'])){
@@ -23,21 +22,7 @@ class ControllerProductCategory extends Controller
             $re_path_parts = explode('_',$re_path);
             $re_category_id = $re_path_parts[0];
 
-            $data['filter_groups'] = $this->model_catalog_category->getFilterGroups($re_category_id);
-
-            foreach ($data['filter_groups'] as &$filter_group){
-                $filter_group['filters']= $this->model_catalog_category->getFilters($filter_group['filter_group_id']);
-                foreach ($filter_group['filters'] as &$filter){
-                    if(in_array($filter['filter_id'],$selected_filters)){
-                        $filter['filter_selected'] = 1;
-                    }else {
-                        $filter['filter_selected'] = 0;
-                    }
-                }
-            }
-
-//            echo '<pre dir="ltr">';
-//            print_r($data['filter_groups']);die;
+            $data['re_filter_groups'] = $this->model_catalog_category->getCategoryFilters($re_category_id);
         }
 
         $this->load->model('catalog/product');
@@ -444,13 +429,4 @@ class ControllerProductCategory extends Controller
         }
     }
 
-
-    public function filter()
-    {
-        $filter_id = $this->request->get['filter_id'];
-
-
-        echo $filter_id;
-        exit;
-    }
 }
