@@ -14,7 +14,6 @@ class ControllerProductCategory extends Controller
         parse_str($url_components['query'], $params);
         //make selected filters as array to send to view
         $data['selected_filters'] = explode(',', $params['filter']);
-        $selected_filters = explode(',', $params['filter']);
 
         //ali97rey edit: get all filters with filter groups
         if (isset($this->request->get['path'])) {
@@ -435,7 +434,7 @@ class ControllerProductCategory extends Controller
         if ($_POST['request'] === 'ajax_filtered') {
 
             //get category id from path
-            if (isset($this->request->get['filter'])) {
+            if (isset($this->request->get['path'])) {
                 $path = $this->request->get['path'];
                 $category_id = explode('_', $path);
                 $category_id = $category_id[0];
@@ -510,12 +509,7 @@ class ControllerProductCategory extends Controller
                 );
             }
 
-//            echo '<pre dir="ltr">';
-
             $this->response->setOutput($this->load->view('product/re_ajax_category', $data));
-
-//        print_r(json_encode($data['products']));
-//        exit;
 
         }
 
