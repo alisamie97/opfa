@@ -11,7 +11,7 @@ define('HTTPS_CATALOG', 'http://localhost/opfa/');
 define('DIR_APPLICATION', 'C:/xampp/htdocs/opfa/admin/');
 define('DIR_SYSTEM', 'C:/xampp/htdocs/opfa/system/');
 define('DIR_IMAGE', 'C:/xampp/htdocs/opfa/image/');
-define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+define('DIR_STORAGE', 'C:/xampp/storage/');
 define('DIR_CATALOG', 'C:/xampp/htdocs/opfa/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
