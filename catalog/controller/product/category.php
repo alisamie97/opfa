@@ -19,7 +19,7 @@ class ControllerProductCategory extends Controller
         if (isset($this->request->get['path'])) {
             $re_path = $this->request->get['path'];
             $re_path_parts = explode('_', $re_path);
-            $re_category_id = $re_path_parts[0];
+            $re_category_id = end($re_path_parts);
 
             $data['re_filter_groups'] = $this->model_catalog_category->getCategoryFilters($re_category_id);
         }
@@ -437,7 +437,7 @@ class ControllerProductCategory extends Controller
             if (isset($this->request->get['path'])) {
                 $path = $this->request->get['path'];
                 $category_id = explode('_', $path);
-                $category_id = $category_id[0];
+                $category_id = end($category_id);
             } else {
                 $category_id = '';
             }

@@ -3,6 +3,95 @@
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/apple_cinema_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/apple_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/canon_eos_5d_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/canon_eos_5d_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/canon_eos_5d_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/canon_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/compaq_presario.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/gift-voucher-birthday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/hp_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/hp_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/hp_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/hp_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/hp_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/htc_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/htc_touch_hd_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/htc_touch_hd_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/htc_touch_hd_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/imac_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/imac_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/imac_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/iphone_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_classic_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_classic_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_classic_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_classic_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_nano_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_nano_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_nano_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_nano_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_nano_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_shuffle_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_shuffle_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_shuffle_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_shuffle_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_shuffle_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/ipod_touch_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_air_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_air_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_air_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_air_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_pro_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_pro_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_pro_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/macbook_pro_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/nikon_d300_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/nikon_d300_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/nikon_d300_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/nikon_d300_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/nikon_d300_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/palm_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/palm_treo_pro_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/palm_treo_pro_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/palm_treo_pro_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/product/iphone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/product/macbook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/product/samsungtab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/product/thunderboltdisplay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_syncmaster_941bw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/samsung_tab_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_vaio_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_vaio_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_vaio_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_vaio_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/demo/sony_vaio_5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +176,7 @@
       <workItem from="1608755426235" duration="16204000" />
       <workItem from="1608755428344" duration="4551000" />
       <workItem from="1608755439625" duration="16764000" />
+      <workItem from="1608755432688" duration="1266000" />
     </task>
     <servers />
   </component>
