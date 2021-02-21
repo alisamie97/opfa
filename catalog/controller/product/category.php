@@ -179,7 +179,7 @@ class ControllerProductCategory extends Controller
 
             $product_total = $this->model_catalog_product->getTotalProducts($filter_data);
 
-            $results = $this->model_catalog_product->getProducts($filter_data);
+            $results = $this->model_catalog_product->reGetProducts($filter_data);
 
             foreach ($results as $result) {
                 if ($result['image']) {
@@ -449,10 +449,37 @@ class ControllerProductCategory extends Controller
                 $filter = '';
             }
 
+            if (isset($this->request->get['sort'])) {
+                $sort = $this->request->get['sort'];
+            } else {
+                $sort = 'p.sort_order';
+            }
+
+            if (isset($this->request->get['order'])) {
+                $order = $this->request->get['order'];
+            } else {
+                $order = 'ASC';
+            }
+
+            if (isset($this->request->get['page'])) {
+                $page = $this->request->get['page'];
+            } else {
+                $page = 1;
+            }
+
+            if (isset($this->request->get['limit'])) {
+                $limit = (int)$this->request->get['limit'];
+            } else {
+                $limit = $this->config->get('theme_' . $this->config->get('config_theme') . '_product_limit');
+            }
 
             $filter_data = array(
                 'filter_category_id' => $category_id,
-                'filter_filter' => $filter
+                'filter_filter' => $filter,
+                'sort' => $sort,
+                'order' => $order,
+                'start' => ($page - 1) * $limit,
+                'limit' => $limit
             );
 
             $this->load->model('catalog/product');
@@ -460,6 +487,15 @@ class ControllerProductCategory extends Controller
             $this->load->model('tool/image');
 
             $data['products'] = array();
+
+            $product_total = $this->model_catalog_product->reGetTotalProducts($filter_data);
+
+            $refilters_query = $this->model_catalog_product->reGetFiltersOfFilterGroups($filter);
+
+            $data['refilters'] = $refilters_query->rows;
+
+//            echo "<pre>";
+//            print_r($data['refilters']);
 
             $results = $this->model_catalog_product->getProducts($filter_data);
 
@@ -508,6 +544,17 @@ class ControllerProductCategory extends Controller
                     'href' => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
                 );
             }
+
+            $pagination = new Pagination();
+            $pagination->total = $product_total;
+            $pagination->page = $page;
+            $pagination->limit = $limit;
+            $pagination->url = $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url . '&page={page}');
+
+            $data['pagination'] = $pagination->render();
+
+            $data['results'] = sprintf($this->language->get('text_pagination'), ($product_total) ? (($page - 1) * $limit) + 1 : 0, ((($page - 1) * $limit) > ($product_total - $limit)) ? $product_total : ((($page - 1) * $limit) + $limit), $product_total, ceil($product_total / $limit));
+
 
             $this->response->setOutput($this->load->view('product/re_ajax_category', $data));
 

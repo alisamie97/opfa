@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\opfa\catalog\view\javascript" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\opfa\data and backup" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="filters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/catalog/view/javascript/filters.js" working-dir="$PROJECT_DIR$/catalog/view/javascript">
@@ -87,7 +95,10 @@
       <workItem from="1608755426235" duration="16204000" />
       <workItem from="1608755428344" duration="4551000" />
       <workItem from="1608755439625" duration="16764000" />
-      <workItem from="1608755432688" duration="2565000" />
+      <workItem from="1608755432688" duration="4383000" />
+      <workItem from="1608755428860" duration="11489000" />
+      <workItem from="1608755415438" duration="7000" />
+      <workItem from="1608755726218" duration="6639000" />
     </task>
     <servers />
   </component>

@@ -64,7 +64,11 @@ $(document).ready(function () {
                 request: 'ajax_filtered',
             },
             success:function (data){
-                $('#re_category').html(data);
+                $('#re_ajax_filter_products #re_category').remove();
+                $('#re_ajax_filter_products #re_soring').after($('#re_category',data));
+
+                $('#re_ajax_filter_products #re_pagination').remove();
+                $('#re_ajax_filter_products').append($('#re_pagination',data));
             }
         });
 

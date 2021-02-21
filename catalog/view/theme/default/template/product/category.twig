@@ -50,7 +50,8 @@
       {% endif %}
       {% endif %}
       {% if products %}
-      <div class="row">
+      <div id="re_ajax_filter_products">
+      <div class="row" id="re_soring">
         <div class="col-md-2 col-sm-6 hidden-xs">
           <div class="btn-group btn-group-sm">
             <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="{{ button_list }}"><i class="fa fa-th-list"></i></button>
@@ -153,9 +154,10 @@
           </div>
         </div>
         {% endfor %} </div>
-      <div class="row">
+      <div class="row" id="re_pagination">
         <div class="col-sm-6 text-left">{{ pagination }}</div>
         <div class="col-sm-6 text-right">{{ results }}</div>
+      </div>
       </div>
       {% endif %}
       {% if not categories and not products %}
