@@ -16,6 +16,9 @@ $(document).ready(function () {
     $('input.filter-checkbox').change(function () {
         //get filter id when input status changes
         filter = $(this).data('filter-id').toString();
+        // filter_group = $(this).data('filter-group-id').toString();
+        //
+        // filter = filter_group + '_' + filter;
 
         console.log('changed filter: ' + filter);
 

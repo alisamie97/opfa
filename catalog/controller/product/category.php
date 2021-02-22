@@ -177,9 +177,17 @@ class ControllerProductCategory extends Controller
                 'limit' => $limit
             );
 
-            $product_total = $this->model_catalog_product->getTotalProducts($filter_data);
+//            print_r($filter_data);
 
-            $results = $this->model_catalog_product->reGetProducts($filter_data);
+            if(empty($filter_data['filter_filter'])){
+                $total_filter_groups = 0;
+            }else{
+                $total_filter_groups = $this->model_catalog_product->reGetTotalFilterGroups($filter_data);
+            }
+
+            $results = $this->model_catalog_product->reGetProducts($filter_data,$total_filter_groups);
+
+            $product_total = sizeof($results);
 
             foreach ($results as $result) {
                 if ($result['image']) {
@@ -488,17 +496,12 @@ class ControllerProductCategory extends Controller
 
             $data['products'] = array();
 
-            $product_total = $this->model_catalog_product->reGetTotalProducts($filter_data);
 
-            $refilters_query = $this->model_catalog_product->reGetFiltersOfFilterGroups($filter);
+            $total_filter_groups = $this->model_catalog_product->reGetTotalFilterGroups($filter_data);
 
-            $data['refilters'] = $refilters_query->rows;
+            $results = $this->model_catalog_product->reGetProducts($filter_data,$total_filter_groups['count_fg']);
 
-//            echo "<pre>";
-//            print_r($data['refilters']);
-
-            $results = $this->model_catalog_product->getProducts($filter_data);
-
+            $product_total = sizeof($results);
 
             foreach ($results as $result) {
                 if ($result['image']) {

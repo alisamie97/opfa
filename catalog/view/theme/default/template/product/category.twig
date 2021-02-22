@@ -176,7 +176,7 @@
               <div class="panel-body">
                 <div class="checkbox">
                   <label for="filter-id-{{ filter.filter_id }}">
-                    <input type="checkbox" class="filter-checkbox" data-filter-id="{{ filter.filter_id }}" id="filter-id-{{ filter.filter_id }}" {% if filter.filter_id in selected_filters %} checked {% endif %} > {{ filter.name }}
+                    <input type="checkbox" class="filter-checkbox" data-filter-group-id="{{ filter_group.filter_group_id }}" data-filter-id="{{ filter.filter_id }}" id="filter-id-{{ filter.filter_id }}" {% if filter.filter_id in selected_filters %} checked {% endif %} > {{ filter.name }}
                   </label>
                 </div>
               </div>
