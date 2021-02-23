@@ -177,15 +177,8 @@ class ControllerProductCategory extends Controller
                 'limit' => $limit
             );
 
-//            print_r($filter_data);
 
-            if(empty($filter_data['filter_filter'])){
-                $total_filter_groups = 0;
-            }else{
-                $total_filter_groups = $this->model_catalog_product->reGetTotalFilterGroups($filter_data);
-            }
-
-            $results = $this->model_catalog_product->reGetProducts($filter_data,$total_filter_groups);
+            $results = $this->model_catalog_product->reGetProducts($filter_data);
 
             $product_total = sizeof($results);
 
@@ -496,10 +489,8 @@ class ControllerProductCategory extends Controller
 
             $data['products'] = array();
 
+            $results = $this->model_catalog_product->reGetProducts($filter_data);
 
-            $total_filter_groups = $this->model_catalog_product->reGetTotalFilterGroups($filter_data);
-
-            $results = $this->model_catalog_product->reGetProducts($filter_data,$total_filter_groups['count_fg']);
 
             $product_total = sizeof($results);
 
