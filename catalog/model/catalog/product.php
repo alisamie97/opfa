@@ -211,10 +211,9 @@ class ModelCatalogProduct extends Model
         return $product_data;
     }
 
-
+    //ali97rey edit: get products filtered
     public function reGetProducts($data = array())
     {
-
         //ali97rey: if no filter is selected do the normal getProduct
         if (empty($data['filter_filter'])) {
             return $this->getProducts($data);
@@ -341,10 +340,14 @@ class ModelCatalogProduct extends Model
             $products_with_filters = $query1->rows;
 
             //ali97rey: clean up data
-            foreach ($products_with_filters as &$prods) {
-                $prods = $prods['product_id'];
+            foreach ($products_with_filters as &$product) {
+                $product = $product['product_id'];
             }
-            $products_with_filters = implode(',', $products_with_filters);
+            if(empty($products_with_filters)){
+                $products_with_filters = 0;
+            }else{
+                $products_with_filters = implode(',', $products_with_filters);
+            }
             $sql .= " AND p.product_id IN ({$products_with_filters}) ";
         }
 
@@ -755,12 +758,9 @@ class ModelCatalogProduct extends Model
         return $query->row['total'];
     }
 
-
-    //ali97rey edit:
+    //ali97rey get total products with filter
     public function reGetTotalProducts($data = array())
     {
-        $validimi = false;
-
         $sql = "SELECT COUNT(DISTINCT p.product_id) AS total";
 
         if (!empty($data['filter_category_id'])) {
@@ -795,19 +795,6 @@ class ModelCatalogProduct extends Model
 
                 foreach ($filters as $filter_id) {
                     $implode[] = (int)$filter_id;
-                }
-
-                $sql_check = "SELECT DISTINCT (filter_group_id) FROM  " . DB_PREFIX . "filter WHERE filter_id IN (" . implode(',', $implode) . ") ";
-                $query_check = $this->db->query($sql_check);
-                $filter_groups = array();
-                foreach ($query_check->rows as $result) {
-                    $filter_groups[$result['filter_group_id']] = array();
-                }
-
-                if (count($filter_groups) > 1) {
-                    $validimi = true;
-                } else {
-                    $validimi = false;
                 }
 
                 $sql .= " AND pf.filter_id IN (" . implode(',', $implode) . ")";
@@ -870,20 +857,42 @@ class ModelCatalogProduct extends Model
             $sql .= " AND p.manufacturer_id = '" . (int)$data['filter_manufacturer_id'] . "'";
         }
 
-        if ($validimi) {
-            $sql .= "GROUP BY p.product_id HAVING COUNT( DISTINCT pf.filter_id)=" . count($filter_groups);
-        } else {
+        //ali97rey: if any filters exists
+        if (!empty($data['filter_filter'])) {
+            //ali97rey: get total filter groups distinct count from this category and this filters
+            $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
+                        FROM oc_filter f
+                        JOIN oc_category_filter cf
+                        ON cf.filter_id = f.filter_id 
+                        WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
+            $query_fgdc = $this->db->query($sql_fgdc);
+            $fgdc = $query_fgdc->row['count_fg'];
 
-            $sql .= " GROUP BY p.product_id";
+            //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
+            $sql1 = "SELECT pf.product_id
+                    FROM oc_product_filter pf 
+                    JOIN oc_filter f 
+                    ON f.filter_id = pf.filter_id 
+                    JOIN oc_category_filter cf 
+                    ON cf.filter_id = pf.filter_id 
+                    WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
+                    GROUP BY pf.product_id
+                    HAVING COUNT(DISTINCT f.filter_group_id) = {$fgdc}";
+            $query1 = $this->db->query($sql1);
+            $products_with_filters = $query1->rows;
 
+            //ali97rey: clean up data
+            foreach ($products_with_filters as &$prods) {
+                $prods = $prods['product_id'];
+            }
+            $products_with_filters = implode(',', $products_with_filters);
+            $sql .= " AND p.product_id IN ({$products_with_filters}) ";
         }
-
 
         $query = $this->db->query($sql);
 
         return $query->row['total'];
     }
-
 
     public function getProfile($product_id, $recurring_id)
     {
