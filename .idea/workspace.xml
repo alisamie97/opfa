@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,8 @@
       <workItem from="1608755726218" duration="7267000" />
       <workItem from="1608755418781" duration="21204000" />
       <workItem from="1608755431328" duration="15986000" />
-      <workItem from="1608755438234" duration="6552000" />
+      <workItem from="1608755438234" duration="6645000" />
+      <workItem from="1608755430110" duration="25203000" />
     </task>
     <servers />
   </component>

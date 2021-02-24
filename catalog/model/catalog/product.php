@@ -219,6 +219,39 @@ class ModelCatalogProduct extends Model
             return $this->getProducts($data);
         }
 
+        //ali97rey: get total filter groups distinct count from this category and this filters
+        $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
+                    FROM oc_filter f
+                    JOIN oc_category_filter cf
+                    ON cf.filter_id = f.filter_id 
+                    WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
+        $query_fgdc = $this->db->query($sql_fgdc);
+        $fgdc = $query_fgdc->row['count_fg'];
+
+        //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
+        $sql1 = "SELECT pf.product_id
+                FROM oc_product_filter pf 
+                JOIN oc_filter f 
+                ON f.filter_id = pf.filter_id 
+                JOIN oc_category_filter cf 
+                ON cf.filter_id = pf.filter_id 
+                WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
+                GROUP BY pf.product_id
+                HAVING COUNT(DISTINCT f.filter_group_id) = {$fgdc}";
+        $query1 = $this->db->query($sql1);
+        $products_with_filters = $query1->rows;
+
+        //ali97rey: clean up data
+        foreach ($products_with_filters as &$product) {
+            $product = $product['product_id'];
+        }
+
+        if(empty($products_with_filters)){
+            $products_with_filters = '0';
+        }else{
+            $products_with_filters = implode(',',$products_with_filters);
+        }
+
         $sql = "SELECT p.product_id, (SELECT AVG(rating) AS total FROM " . DB_PREFIX . "review r1 WHERE r1.product_id = p.product_id AND r1.status = '1' GROUP BY r1.product_id) AS rating, (SELECT price FROM " . DB_PREFIX . "product_discount pd2 WHERE pd2.product_id = p.product_id AND pd2.customer_group_id = '" . (int)$this->config->get('config_customer_group_id') . "' AND pd2.quantity = '1' AND ((pd2.date_start = '0000-00-00' OR pd2.date_start < NOW()) AND (pd2.date_end = '0000-00-00' OR pd2.date_end > NOW())) ORDER BY pd2.priority ASC, pd2.price ASC LIMIT 1) AS discount, (SELECT price FROM " . DB_PREFIX . "product_special ps WHERE ps.product_id = p.product_id AND ps.customer_group_id = '" . (int)$this->config->get('config_customer_group_id') . "' AND ((ps.date_start = '0000-00-00' OR ps.date_start < NOW()) AND (ps.date_end = '0000-00-00' OR ps.date_end > NOW())) ORDER BY ps.priority ASC, ps.price ASC LIMIT 1) AS special";
 
         if (!empty($data['filter_category_id'])) {
@@ -316,39 +349,10 @@ class ModelCatalogProduct extends Model
         }
 
         //ali97rey: if any filters exists
-        if (!empty($data['filter_filter'])) {
-            //ali97rey: get total filter groups distinct count from this category and this filters
-            $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
-                        FROM oc_filter f
-                        JOIN oc_category_filter cf
-                        ON cf.filter_id = f.filter_id 
-                        WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
-            $query_fgdc = $this->db->query($sql_fgdc);
-            $fgdc = $query_fgdc->row['count_fg'];
-
-            //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
-            $sql1 = "SELECT pf.product_id
-                    FROM oc_product_filter pf 
-                    JOIN oc_filter f 
-                    ON f.filter_id = pf.filter_id 
-                    JOIN oc_category_filter cf 
-                    ON cf.filter_id = pf.filter_id 
-                    WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
-                    GROUP BY pf.product_id
-                    HAVING COUNT(DISTINCT f.filter_group_id) = {$fgdc}";
-            $query1 = $this->db->query($sql1);
-            $products_with_filters = $query1->rows;
-
-            //ali97rey: clean up data
-            foreach ($products_with_filters as &$product) {
-                $product = $product['product_id'];
-            }
-            if(empty($products_with_filters)){
-                $products_with_filters = 0;
-            }else{
-                $products_with_filters = implode(',', $products_with_filters);
-            }
+        if ($products_with_filters!='0') {
             $sql .= " AND p.product_id IN ({$products_with_filters}) ";
+        }else{
+            $sql .= " AND p.product_id IN (0) ";
         }
 
         $sql .= " GROUP BY p.product_id";
@@ -394,15 +398,12 @@ class ModelCatalogProduct extends Model
         }
 
         $product_data = array();
-
         $query = $this->db->query($sql);
 
         foreach ($query->rows as $result) {
             $product_data[$result['product_id']] = $this->getProduct($result['product_id']);
         }
-
         return $product_data;
-
     }
 
     //ali97rey edit: get products filtered
@@ -761,6 +762,43 @@ class ModelCatalogProduct extends Model
     //ali97rey get total products with filter
     public function reGetTotalProducts($data = array())
     {
+        if(empty($data['filter_filter'])){
+            return $this->getTotalProducts($data);
+        }
+
+        //ali97rey: get total filter groups distinct count from this category and this filters
+        $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
+                    FROM oc_filter f
+                    JOIN oc_category_filter cf
+                    ON cf.filter_id = f.filter_id 
+                    WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
+        $query_fgdc = $this->db->query($sql_fgdc);
+        $fgdc = $query_fgdc->row['count_fg'];
+
+        //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
+        $sql1 = "SELECT pf.product_id
+                FROM oc_product_filter pf 
+                JOIN oc_filter f 
+                ON f.filter_id = pf.filter_id 
+                JOIN oc_category_filter cf 
+                ON cf.filter_id = pf.filter_id 
+                WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
+                GROUP BY pf.product_id
+                HAVING COUNT(DISTINCT f.filter_group_id) = {$fgdc}";
+        $query1 = $this->db->query($sql1);
+        $products_with_filters = $query1->rows;
+
+        //ali97rey: clean up data
+        foreach ($products_with_filters as &$product) {
+            $product = $product['product_id'];
+        }
+
+        if(empty($products_with_filters)){
+            $products_with_filters = '0';
+        }else{
+            $products_with_filters = implode(',',$products_with_filters);
+        }
+
         $sql = "SELECT COUNT(DISTINCT p.product_id) AS total";
 
         if (!empty($data['filter_category_id'])) {
@@ -858,35 +896,10 @@ class ModelCatalogProduct extends Model
         }
 
         //ali97rey: if any filters exists
-        if (!empty($data['filter_filter'])) {
-            //ali97rey: get total filter groups distinct count from this category and this filters
-            $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
-                        FROM oc_filter f
-                        JOIN oc_category_filter cf
-                        ON cf.filter_id = f.filter_id 
-                        WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
-            $query_fgdc = $this->db->query($sql_fgdc);
-            $fgdc = $query_fgdc->row['count_fg'];
-
-            //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
-            $sql1 = "SELECT pf.product_id
-                    FROM oc_product_filter pf 
-                    JOIN oc_filter f 
-                    ON f.filter_id = pf.filter_id 
-                    JOIN oc_category_filter cf 
-                    ON cf.filter_id = pf.filter_id 
-                    WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
-                    GROUP BY pf.product_id
-                    HAVING COUNT(DISTINCT f.filter_group_id) = {$fgdc}";
-            $query1 = $this->db->query($sql1);
-            $products_with_filters = $query1->rows;
-
-            //ali97rey: clean up data
-            foreach ($products_with_filters as &$prods) {
-                $prods = $prods['product_id'];
-            }
-            $products_with_filters = implode(',', $products_with_filters);
+        if ($products_with_filters!='0') {
             $sql .= " AND p.product_id IN ({$products_with_filters}) ";
+        }else{
+            $sql .= " AND p.product_id IN (0) ";
         }
 
         $query = $this->db->query($sql);

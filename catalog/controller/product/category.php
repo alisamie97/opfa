@@ -497,6 +497,8 @@ class ControllerProductCategory extends Controller
 
             $results = $this->model_catalog_product->reGetProducts($filter_data);
 
+            if($results){
+
             $product_total = $this->model_catalog_product->reGetTotalProducts($filter_data);
 
             foreach ($results as $result) {
@@ -544,6 +546,7 @@ class ControllerProductCategory extends Controller
                 );
             }
 
+            }
             $url = '';
 
             if (isset($this->request->get['filter'])) {
