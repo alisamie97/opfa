@@ -82,28 +82,50 @@ class ControllerProductCategory extends Controller
                 $url .= '&limit=' . $this->request->get['limit'];
             }
 
-            $path = '';
+//            $path = '';
 
             $parts = explode('_', (string)$this->request->get['path']);
 
             $category_id = (int)array_pop($parts);
 
-            foreach ($parts as $path_id) {
-                if (!$path) {
-                    $path = (int)$path_id;
-                } else {
-                    $path .= '_' . (int)$path_id;
-                }
+            //ali97rey: get roots of this category
+            $category_roots = $this->model_catalog_category->reGetCategoryRoots($category_id);
 
-                $category_info = $this->model_catalog_category->getCategory($path_id);
-
-                if ($category_info) {
-                    $data['breadcrumbs'][] = array(
-                        'text' => $category_info['name'],
-                        'href' => $this->url->link('product/category', 'path=' . $path . $url)
-                    );
-                }
+            //ali97rey: make helper array for categories
+            $category_helper = array();
+            //ali97rey: if any category exists
+            foreach ($category_roots as $category_root){
+                //add category to helper array
+                $category_helper[] = $category_root['path_id'];
+                //load category info
+                $category_info = $this->model_catalog_category->getCategory($category_root['path_id']);
+                //add category breadcrumb
+                $data['breadcrumbs'][] = array(
+                    'text' => $category_info['name'],
+                    'href' => $this->url->link('product/category', 'path=' . implode('_',$category_helper) . $url)
+                );
             }
+
+//            echo '<pre dir="ltr">';
+//            die(print_r($category_roots));
+
+            //ali97rey: this part is not needed
+//            foreach ($parts as $path_id) {
+//                if (!$path) {
+//                    $path = (int)$path_id;
+//                } else {
+//                    $path .= '_' . (int)$path_id;
+//                }
+//
+//                $category_info = $this->model_catalog_category->getCategory($path_id);
+//
+//                if ($category_info) {
+//                    $data['breadcrumbs'][] = array(
+//                        'text' => $category_info['name'],
+//                        'href' => $this->url->link('product/category', 'path=' . $path . $url)
+//                    );
+//                }
+//            }
         } else {
             $category_id = 0;
         }
@@ -119,11 +141,12 @@ class ControllerProductCategory extends Controller
 
             $data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 
-            // Set the last category breadcrumb
-            $data['breadcrumbs'][] = array(
-                'text' => $category_info['name'],
-                'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'])
-            );
+            //ali97rey: i add all breadcrumbs of this category at once
+//            // Set the last category breadcrumb
+//            $data['breadcrumbs'][] = array(
+//                'text' => $category_info['name'],
+//                'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'])
+//            );
 
             if ($category_info['image']) {
                 $data['thumb'] = $this->model_tool_image->resize($category_info['image'], $this->config->get('theme_' . $this->config->get('config_theme') . '_image_category_width'), $this->config->get('theme_' . $this->config->get('config_theme') . '_image_category_height'));

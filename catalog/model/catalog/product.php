@@ -932,4 +932,19 @@ class ModelCatalogProduct extends Model
             return 0;
         }
     }
+
+    //ali97rey: get all roots of a product
+    public function reGetProductRoots($product_id){
+        $sql = "SELECT cp.level,cp.path_id
+                FROM oc_product_to_category p2c
+                LEFT JOIN oc_category_path cp
+                ON p2c.category_id = cp.category_id  
+                WHERE p2c.product_id = {$product_id}
+                GROUP BY cp.path_id
+                ORDER BY cp.level ASC";
+
+        $query = $this->db->query($sql);
+
+        return $query->rows;
+    }
 }

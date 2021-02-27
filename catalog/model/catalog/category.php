@@ -97,4 +97,16 @@ class ModelCatalogCategory extends Model {
 
 		return $query->row['total'];
 	}
+
+	//ali97rey: get roots of this category
+    public function reGetCategoryRoots($category_id){
+	    $sql = "SELECT cp.path_id,cp.level
+                FROM oc_category_path cp 
+                WHERE cp.category_id = {$category_id}
+                ORDER BY cp.level ASC";
+
+	    $query = $this->db->query($sql);
+
+	    return $query->rows;
+	}
 }

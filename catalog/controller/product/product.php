@@ -4,6 +4,7 @@ class ControllerProductProduct extends Controller {
 
 	public function index() {
 		$this->load->language('product/product');
+        $this->load->model('catalog/product');
 
 		$data['breadcrumbs'] = array();
 
@@ -14,58 +15,77 @@ class ControllerProductProduct extends Controller {
 
 		$this->load->model('catalog/category');
 
-		if (isset($this->request->get['path'])) {
-			$path = '';
+		//ali97rey: get all roots of this product
+        $product_roots = $this->model_catalog_product->reGetProductRoots($this->request->get['product_id']);
 
-			$parts = explode('_', (string)$this->request->get['path']);
+        //ali97rey: make an empty array of paths
+        $path_helper = array();
+		//ali97rey: if any path provided
+        foreach ($product_roots as $product_root){
+            //add path to helper array
+            $path_helper[] = $product_root['path_id'];
+            //get category info
+            $category_info = $this->model_catalog_category->getCategory($product_root['path_id']);
+            //add category breadcrumbs
+            $data['breadcrumbs'][] = array(
+                'text' => $category_info['name'],
+                'href' => $this->url->link('product/category', 'path=' . implode('_',$path_helper))
+            );
+        }
 
-			$category_id = (int)array_pop($parts);
-
-			foreach ($parts as $path_id) {
-				if (!$path) {
-					$path = $path_id;
-				} else {
-					$path .= '_' . $path_id;
-				}
-
-				$category_info = $this->model_catalog_category->getCategory($path_id);
-
-				if ($category_info) {
-					$data['breadcrumbs'][] = array(
-						'text' => $category_info['name'],
-						'href' => $this->url->link('product/category', 'path=' . $path)
-					);
-				}
-			}
-
-			// Set the last category breadcrumb
-			$category_info = $this->model_catalog_category->getCategory($category_id);
-
-			if ($category_info) {
-				$url = '';
-
-				if (isset($this->request->get['sort'])) {
-					$url .= '&sort=' . $this->request->get['sort'];
-				}
-
-				if (isset($this->request->get['order'])) {
-					$url .= '&order=' . $this->request->get['order'];
-				}
-
-				if (isset($this->request->get['page'])) {
-					$url .= '&page=' . $this->request->get['page'];
-				}
-
-				if (isset($this->request->get['limit'])) {
-					$url .= '&limit=' . $this->request->get['limit'];
-				}
-
-				$data['breadcrumbs'][] = array(
-					'text' => $category_info['name'],
-					'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url)
-				);
-			}
-		}
+        //ali97rey: this is not needed any more
+//		if (isset($this->request->get['path'])) {
+//			$path = '';
+//
+//			$parts = explode('_', (string)$this->request->get['path']);
+//
+//			$category_id = (int)array_pop($parts);
+//
+//			foreach ($parts as $path_id) {
+//				if (!$path) {
+//					$path = $path_id;
+//				} else {
+//					$path .= '_' . $path_id;
+//				}
+//
+//				$category_info = $this->model_catalog_category->getCategory($path_id);
+//
+//				if ($category_info) {
+//					$data['breadcrumbs'][] = array(
+//						'text' => $category_info['name'],
+//						'href' => $this->url->link('product/category', 'path=' . $path)
+//					);
+//				}
+//			}
+//
+//			// Set the last category breadcrumb
+//			$category_info = $this->model_catalog_category->getCategory($category_id);
+//
+//			if ($category_info) {
+//				$url = '';
+//
+//				if (isset($this->request->get['sort'])) {
+//					$url .= '&sort=' . $this->request->get['sort'];
+//				}
+//
+//				if (isset($this->request->get['order'])) {
+//					$url .= '&order=' . $this->request->get['order'];
+//				}
+//
+//				if (isset($this->request->get['page'])) {
+//					$url .= '&page=' . $this->request->get['page'];
+//				}
+//
+//				if (isset($this->request->get['limit'])) {
+//					$url .= '&limit=' . $this->request->get['limit'];
+//				}
+//
+//				$data['breadcrumbs'][] = array(
+//					'text' => $category_info['name'],
+//					'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url)
+//				);
+//			}
+//		}
 
 		$this->load->model('catalog/manufacturer');
 
@@ -154,7 +174,7 @@ class ControllerProductProduct extends Controller {
 			$product_id = 0;
 		}
 
-		$this->load->model('catalog/product');
+//		$this->load->model('catalog/product');
 
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 
