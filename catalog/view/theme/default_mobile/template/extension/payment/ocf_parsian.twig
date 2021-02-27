@@ -1,0 +1,36 @@
+<fieldset id="payment"></fieldset>
+<div class="buttons">
+  <div class="pull-right">
+    <input type="button" value="{{ button_confirm }}" id="button-confirm" data-loading-text="{{ text_loading }}" class="btn btn-primary" />
+  </div>
+</div>
+<script type="text/javascript"><!--
+$('#button-confirm').bind('click', function() {
+	$.ajax({
+		type: 'post',
+		dataType: 'json',
+		url: 'index.php?route=extension/payment/ocf_parsian/confirm',
+		//cache: false,
+		data: $('#payment :input'),
+		beforeSend: function() {
+			$('#button-confirm').attr('disabled', true);
+			$('#payment').before('<div class="alert alert-info"><i class="fa fa-info-circle"></i> {{ text_wait }}</div>');
+		},
+		complete: function() {
+			$('#button-confirm').attr('disabled', false);
+			$('.alert-info').remove();
+		},
+		success: function(json) {
+			$('.alert-info').remove();
+			if (json['Token']) {
+				$('#payment').before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ text_connect }}</div>');
+
+				window.location.assign("https://pec.shaparak.ir/NewIPG/?Token="+json['Token']);
+			} else {
+				$('#payment').before('<div class="alert alert-danger"><i class="fa fa-info-exclamation"></i> <b>{{ text_error_in_send }}</b>' + json['error'] + '</div>');
+				$('#button-confirm').attr('disabled', false);
+			}
+		}
+	});
+});
+//--></script>

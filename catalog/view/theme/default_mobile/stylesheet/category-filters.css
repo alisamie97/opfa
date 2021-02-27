@@ -1,0 +1,20 @@
+.category-filters{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+/*.category-filters div{*/
+/*    color: #888888;*/
+/*    padding: 4px 8px;*/
+/*}*/
+.category-filters .panel-heading{
+    padding: 4px 8px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.category-filters .panel-body{
+    padding: 1px 8px 1px 8px;
+}
+
+.category-filters .panel-body div.checkbox{
+    margin: 0px;
+}

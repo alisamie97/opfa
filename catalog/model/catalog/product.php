@@ -221,8 +221,8 @@ class ModelCatalogProduct extends Model
 
         //ali97rey: get total filter groups distinct count from this category and this filters
         $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
-                    FROM oc_filter f
-                    JOIN oc_category_filter cf
+                    FROM ".DB_PREFIX."filter f
+                    JOIN ".DB_PREFIX."category_filter cf
                     ON cf.filter_id = f.filter_id 
                     WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
         $query_fgdc = $this->db->query($sql_fgdc);
@@ -230,10 +230,10 @@ class ModelCatalogProduct extends Model
 
         //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
         $sql1 = "SELECT pf.product_id
-                FROM oc_product_filter pf 
-                JOIN oc_filter f 
+                FROM ".DB_PREFIX."product_filter pf 
+                JOIN ".DB_PREFIX."filter f 
                 ON f.filter_id = pf.filter_id 
-                JOIN oc_category_filter cf 
+                JOIN ".DB_PREFIX."category_filter cf 
                 ON cf.filter_id = pf.filter_id 
                 WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
                 GROUP BY pf.product_id
@@ -768,8 +768,8 @@ class ModelCatalogProduct extends Model
 
         //ali97rey: get total filter groups distinct count from this category and this filters
         $sql_fgdc = "SELECT COUNT(DISTINCT f.filter_group_id) as count_fg
-                    FROM oc_filter f
-                    JOIN oc_category_filter cf
+                    FROM ".DB_PREFIX."filter f
+                    JOIN ".DB_PREFIX."category_filter cf
                     ON cf.filter_id = f.filter_id 
                     WHERE f.filter_id IN ({$data['filter_filter']}) AND cf.category_id = {$data['filter_category_id']} ";
         $query_fgdc = $this->db->query($sql_fgdc);
@@ -777,10 +777,10 @@ class ModelCatalogProduct extends Model
 
         //ali97rey: get products having this filters and having this filtergroup distinct count and from this category
         $sql1 = "SELECT pf.product_id
-                FROM oc_product_filter pf 
-                JOIN oc_filter f 
+                FROM ".DB_PREFIX."product_filter pf 
+                JOIN ".DB_PREFIX."filter f 
                 ON f.filter_id = pf.filter_id 
-                JOIN oc_category_filter cf 
+                JOIN ".DB_PREFIX."category_filter cf 
                 ON cf.filter_id = pf.filter_id 
                 WHERE cf.category_id = {$data['filter_category_id']} AND pf.filter_id IN ({$data['filter_filter']}) 
                 GROUP BY pf.product_id
