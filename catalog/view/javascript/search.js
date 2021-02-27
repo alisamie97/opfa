@@ -14,53 +14,56 @@ $(document).ready(function () {
             //get search term from input
             search_term = $('#search input').val();
             //select result list
-            list = $('#search ul.dropdown-menu');
+            ajax_search_result_list = $('#ajax-search-result-list');
+            product_list = $('#ajax-search-products-list');
+            category_list = $('#ajax-search-categories-list');
+            manufacturer_list = $('#ajax-search-manufacturers-list');
+            not_found = $('#search-not-found');
             //if search term not empty start ajax
             if (search_term.length) {
                 $.ajax({
                     type: 'get',
                     //send ajax request to live_search method
-                    url: '?route=product/search/live_search&search_term=' + search_term,
+                    url: '?route=common/search/live_search&search_term=' + search_term,
                     beforeSend: function () {
-                        //clear any child of result list
-                        list.empty();
+                        // clear any child of result list
+                        ajax_search_result_list.hide();
+                        product_list.hide();
+                        category_list.hide();
+                        manufacturer_list.hide();
+                        not_found.hide();
                     },
                     fail: function () {
 
                     },
                     success: function (data) {
-                        data = JSON.parse(data);
-                        list.show();
+                        console.log(data);
+                        tempd= data;
+                        console.log(tempd);
 
-                        if (!data.products.length && !data.categories.length && !data.manufacturers.length) {
-                            list.append('<li><span class="search-not-found" >چیزی پیدا نشد</span></li>');
-                        } else {
-                            if (data.products.length) {
-                                list.append('<li><h5>محصولات</h5></li>')
-                                $.each(data.products, function (i, item) {
-                                    list.append('<li><a class="btn btn-link btn-block" href="' + item.href + '">' + item.name + '</a></li>');
-                                });
+                        if($('#search-not-found',data).length > 0){
+                            not_found.show()
+                        }else{
+                            if($('#ajax-search-products-list',data).length > 0){
+                                product_list.html($('#ajax-search-products-list',data).html());
                             }
-                            if (data.categories.length) {
-                                list.append('<li><h5>دسته ها</h5></li>')
-                                $.each(data.categories, function (i, item) {
-                                    list.append('<li><a class="btn btn-link btn-block" href="' + item.href + '">' + item.name + '</a></li>');
-                                });
+
+                            if($('#ajax-search-categories-list',data).length > 0){
+                                category_list.html($('#ajax-search-categories-list',data).html());
                             }
-                            if (data.manufacturers.length) {
-                                list.append('<li><h5>سازنده ها</h5></li>')
-                                $.each(data.manufacturers, function (i, item) {
-                                    list.append('<li><a class="btn btn-link btn-block" href="' + item.href + '">' + item.name + '</a></li>');
-                                });
+
+                            if($('#ajax-search-manufacturers-list',data).length > 0){
+                                manufacturer_list.html($('#ajax-search-manufacturers-list',data).html());
                             }
                         }
+                        ajax_search_result_list.html($(data).html());
+                        ajax_search_result_list.show();
                     }
                 });
             }else{
                 setTimeout(function (){
                     //clear list and hide it from view after 4000 ms if search term is empty and inactive
-                    list.empty();
-                    list.hide();
+                    ajax_search_result_list.hide();
                 },4000)
             }
         }, 500);

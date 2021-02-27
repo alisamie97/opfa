@@ -1,22 +1,28 @@
-#search ul.dropdown-menu li h5,
-.search-not-found{
+#search div.dropdown-menu{
+    width: 100%;
+}
+#search div.dropdown-menu ul{
     padding: 3px;
     margin: 3px;
-}
-#search ul.dropdown-menu li h5{
-    border-bottom: 1px solid #565656;
-    padding-bottom: 10px!important;
-}
-
-#search ul.dropdown-menu li a{
-    text-align: right !important;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.search-not-found{
-    padding: 3px;
-    margin: 3px;
+#search div.dropdown-menu ul li.ajax-search-list-heading,
+#search div.dropdown-menu ul li.ajax-search-list-item{
+    padding: 2px;
+    margin: 2px;
 }
 
-/*#ajax-search-result-list{*/
-/*    display: block;*/
+#search div.dropdown-menu ul li h5{
+    padding: 0;
+    margin: 0;
+}
+
+/*#ajax-search-products-list,*/
+/*#ajax-search-categories-list,*/
+/*#ajax-search-manufacturers-list,*/
+/*#search-not-found{*/
+/*    display: none;*/
 /*}*/

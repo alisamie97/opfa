@@ -458,42 +458,4 @@ class ControllerProductSearch extends Controller
         $this->response->setOutput($this->load->view('product/search', $data));
     }
 
-    //ali97rey edit: live ajax search
-    public function live_search()
-    {
-        //get search term
-        $search_term = $this->request->get['search_term'];
-        //if search term is empty exit
-        if (empty($search_term)) exit;
-
-        //load product model
-        $this->load->model('catalog/product');
-        $filter = array(
-            'filter_product_name' =>   $search_term ,
-            'start' => 0,
-            'limit' => 5
-        );
-        $result['products'] = $this->model_catalog_product->reSearchProducts($filter);
-
-        //load category model
-        $this->load->model('catalog/category');
-        $filter = array(
-            'filter_category_name' =>   $search_term ,
-            'start' => 0,
-            'limit' => 5
-        );
-        $result['categories'] = $this->model_catalog_category->reSearchCategories($filter);
-
-
-        $this->load->model('catalog/manufacturer');
-        $filter = array(
-            'filter_manufacturer_name' =>   $search_term ,
-            'start' => 0,
-            'limit' => 5
-        );
-        $result['manufacturers'] = $this->model_catalog_manufacturer->reSearchManufacturers($filter);
-
-        echo json_encode($result);
-        exit;
-    }
 }
