@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4c388f22-8db3-454e-80d7-98c10f5883cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/re_ajax_category.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1608755438234" duration="6645000" />
       <workItem from="1608755430110" duration="25843000" />
       <workItem from="1608755432031" duration="68000" />
-      <workItem from="1608755452641" duration="1720000" />
+      <workItem from="1608755452641" duration="4793000" />
     </task>
     <servers />
   </component>

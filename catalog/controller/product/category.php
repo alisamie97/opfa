@@ -8,19 +8,22 @@ class ControllerProductCategory extends Controller
 
         $this->load->model('catalog/category');
 
-        //ali97rey edit: get url and parse it to get filters
+        //ali97rey edit: get url and parse it to get filters from url params
         $full_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $url_components = parse_url($full_url);
         parse_str($url_components['query'], $params);
-        //make selected filters as array to send to view
+        //make an array of selected filters from filter parameter in url
         $data['selected_filters'] = explode(',', $params['filter']);
 
-        //ali97rey edit: get all filters and parent filter groups from this category to show in view
+        //ali97rey edit: get all filters of this category and their filter group to show as check box in template
         if (isset($this->request->get['path'])) {
+            //ali97rey: get full path and make an array of path items
             $re_path = $this->request->get['path'];
             $re_path_parts = explode('_', $re_path);
+            //ali97rey: get last item of path array as the category to search
             $re_category_id = end($re_path_parts);
-            $data['re_filter_groups'] = $this->model_catalog_category->getCategoryFilters($re_category_id);
+            //ali97rey: get all filter groups and their filters for this category
+            $data['re_filter_box'] = $this->model_catalog_category->getCategoryFilters($re_category_id);
         }
 
         $this->load->model('catalog/product');
@@ -352,12 +355,10 @@ class ControllerProductCategory extends Controller
 
             // http://googlewebmastercentral.blogspot.com/2011/09/pagination-with-relnext-and-relprev.html
             if ($page == 1) {
+                $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id']), 'canonical');
+            } else {
                 $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'] . '&page=' . $page), 'canonical');
             }
-//                $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id']), 'canonical');
-//            } else {
-//                $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'] . '&page=' . $page), 'canonical');
-//            }
 
             if ($page > 1) {
                 $this->document->addLink($this->url->link('product/category', 'path=' . $category_info['category_id'] . (($page - 2) ? '&page=' . ($page - 1) : '')), 'prev');
