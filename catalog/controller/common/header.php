@@ -32,7 +32,7 @@ class ControllerCommonHeader extends Controller {
 		$data['links'] = $this->document->getLinks();
 
 		//ali97rey edit: add dropdown style
-        $this->document->addStyle('catalog/view/theme/default/stylesheet/alrey_style.css');
+        $this->document->addStyle('catalog/view/theme/default/stylesheet/searchbox.css');
 
         if($this->request->get['route']=='product/category'){
             $this->document->addStyle('catalog/view/theme/default/stylesheet/category-filters.css');

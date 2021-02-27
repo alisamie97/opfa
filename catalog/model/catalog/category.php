@@ -13,7 +13,7 @@ class ModelCatalogCategory extends Model {
 	}
 
 	//ali97rey edit: get category filtered
-    public function getCategoriesFiltered($filter=array()){
+    public function reSearchCategories($filter=array()){
 
 	    $sql = "SELECT cd.category_id as id,cd.name FROM ".DB_PREFIX."category_description cd WHERE 1=1 ";
 	    if (@$filter['filter_category_name']){

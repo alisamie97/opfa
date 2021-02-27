@@ -407,14 +407,15 @@ class ModelCatalogProduct extends Model
     }
 
     //ali97rey edit: get products filtered
-    public function getProductsFiltered($filter = array())
+    public function reSearchProducts($filter = array())
     {
-
+        //select products with names like in filter
         $sql = "SELECT pd.name,pd.product_id as id FROM " . DB_PREFIX . "product_description pd WHERE 1=1 ";
         if (@$filter['filter_product_name']) {
             $sql .= ' AND pd.name LIKE "%' . $filter['filter_product_name'] . '%"';
         }
 
+        //set default limit to 20
         if (isset($filter['start']) || isset($filter['limit'])) {
             if ($filter['start'] < 0) {
                 $filter['start'] = 0;

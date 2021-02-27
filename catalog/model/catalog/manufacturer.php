@@ -58,7 +58,7 @@ class ModelCatalogManufacturer extends Model {
 	}
 
     //ali97rey edit: get manufacturers filtered
-    public function getManufacturersFiltered($filter){
+    public function reSearchManufacturers($filter){
 
 	    $sql = 'SELECT m.name, m.manufacturer_id as id FROM '.DB_PREFIX.'manufacturer m WHERE 1=1 ';
 
