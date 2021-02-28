@@ -92,17 +92,18 @@ class ControllerProductCategory extends Controller
             $category_roots = $this->model_catalog_category->reGetCategoryRoots($category_id);
 
             //ali97rey: make helper array for categories
-            $category_helper = array();
+//            $category_helper = array();
             //ali97rey: if any category exists
             foreach ($category_roots as $category_root){
                 //add category to helper array
-                $category_helper[] = $category_root['path_id'];
+//                $category_helper[] = $category_root['path_id'];
                 //load category info
                 $category_info = $this->model_catalog_category->getCategory($category_root['path_id']);
                 //add category breadcrumb
                 $data['breadcrumbs'][] = array(
                     'text' => $category_info['name'],
-                    'href' => $this->url->link('product/category', 'path=' . implode('_',$category_helper) . $url)
+//                    'href' => $this->url->link('product/category', 'path=' . implode('_',$category_helper) . $url)
+                    'href' => $this->url->link('product/category', 'path=' . $category_root['path_id'] . $url)
                 );
             }
 

@@ -7,6 +7,9 @@ $(document).ready(function () {
     //select result list
     ajax_search_result_list = $('#ajax-search-result-list');
 
+    //store last search
+    last_search = '';
+
     //make event listener after typing is finished
     $('#search input').on('keyup', function (e) {
 

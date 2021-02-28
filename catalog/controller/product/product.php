@@ -19,17 +19,18 @@ class ControllerProductProduct extends Controller {
         $product_roots = $this->model_catalog_product->reGetProductRoots($this->request->get['product_id']);
 
         //ali97rey: make an empty array of paths
-        $path_helper = array();
+//        $path_helper = array();
 		//ali97rey: if any path provided
         foreach ($product_roots as $product_root){
             //add path to helper array
-            $path_helper[] = $product_root['path_id'];
+//            $path_helper[] = $product_root['path_id'];
             //get category info
             $category_info = $this->model_catalog_category->getCategory($product_root['path_id']);
             //add category breadcrumbs
             $data['breadcrumbs'][] = array(
                 'text' => $category_info['name'],
-                'href' => $this->url->link('product/category', 'path=' . implode('_',$path_helper))
+                'href' => $this->url->link('product/category', 'path=' . $product_root['path_id'])
+//                'href' => $this->url->link('product/category', 'path=' . implode('_',$path_helper))
             );
         }
 
